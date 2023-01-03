@@ -52,8 +52,8 @@ fn main() {
         vec.push(i);
     }
 
-    let mut durations1 = Vec::with_capacity(100000);
-    let mut durations2 = Vec::with_capacity(100000);
+    let mut durations1 = Vec::with_capacity(size);
+    let mut durations2 = Vec::with_capacity(size);
 
     for _ in 0..iters {
         let start = Instant::now();
